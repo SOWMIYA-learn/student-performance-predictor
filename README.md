@@ -29,27 +29,27 @@ Try it now: [Student Performance Predictor](https://student-performance-predicto
 - Responsive design for all devices.  
 
 ## 💻 For Developers
-Want to run this project locally? Follow these steps:  
+ To run this project locally, follow these steps:  
 
-1. **Clone the repository** 
-
+1. **Clone the repository**
+   
 git clone https://github.com/SOWMIYA-learn/student-performance-predictor.git
 cd student-performance-predictor
 
-2. Install dependencies
+2. **Install dependencies**
 
 pip install -r requirements.txt
 
-3. Run the Flask app
+3. **Run the Flask app**
 
 python app.py
 
 
-4. Open in browser
+4. **Open in browser**
 
 http://127.0.0.1:5000/
 
- 📜 License
+ **📜 License**
 
 This project is licensed under the MIT License
 
