@@ -5,7 +5,7 @@ A Machine Learning–powered web application that predicts student academic perf
 ---
 
 ## 🚀 Live Demo
-🔗 https://student-performance-predictor.onrender.com  
+🔗 https://student-performance-predictor-zz2j.onrender.com 
 *(Free tier – may take 30–60 seconds to load)*
 
 ---
