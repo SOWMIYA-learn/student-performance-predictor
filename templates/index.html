@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Performance Predictor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body class="light">
+
+  <header class="topbar">
+    <h2>🎓 Student Performance Predictor</h2>
+    <button id="themeToggle">🌙</button>
+  </header>
+
+  <main class="dashboard">
+
+    <section class="glass-card">
+      <h3>Enter Student Details</h3>
+
+      <form method="POST">
+
+        <div class="input-group">
+          <input type="number" step="0.1" name="study_hours" required>
+          <label>Hours Studied</label>
+        </div>
+
+        <div class="input-group">
+          <input type="number" name="attendance" required>
+          <label>Attendance (%)</label>
+        </div>
+
+        <div class="input-group">
+          <input type="number" name="internal_marks" required>
+          <label>Internal Marks</label>
+        </div>
+
+        <div class="input-group">
+          <input type="number" step="0.1" name="previous_grade" required>
+          <label>Previous Grade</label>
+        </div>
+
+        <button class="predict-btn">Predict Performance</button>
+      </form>
+
+      {% if result %}
+      <div class="result {{ message_type }}">
+        <h2>{{ result }}</h2>
+        <p>{{ message_text }}</p>
+      </div>
+      {% endif %}
+
+    </section>
+    
+    <section class="glass-card performance-zone">
+  <h3>Performance Overview</h3>
+
+  <!-- Metric Cards -->
+  <div class="metrics-grid">
+
+    <div class="metric-card">
+      <h4>📘 Study Hours</h4>
+      <p>{{ study_hours }} hrs/day</p>
+    </div>
+
+    <div class="metric-card">
+      <h4>📅 Attendance</h4>
+      <p>{{ attendance }}%</p>
+    </div>
+
+    <div class="metric-card">
+      <h4>📝 Internal Marks</h4>
+      <p>{{ internal_marks }}</p>
+    </div>
+
+    <div class="metric-card">
+      <h4>🎓 Previous Grade</h4>
+      <p>{{ previous_grade }}</p>
+    </div>
+
+  </div>
+
+  <!-- AI FEEDBACK -->
+  <div class="ai-feedback">
+    <h4>🤖 AI Performance Analysis</h4>
+    <ul id="feedbackList"></ul>
+
+    <div class="final-result {{ message_type }}">
+      Prediction: {{ result }}
+    </div>
+  </div>
+
+  <!-- Hidden inputs for JS -->
+  <input type="hidden" id="studyHidden" value="{{ study_hours }}">
+  <input type="hidden" id="attendanceHidden" value="{{ attendance }}">
+  <input type="hidden" id="internalHidden" value="{{ internal_marks }}">
+
+</section>
+
+
+
+    
+  </main>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
