@@ -20,7 +20,6 @@ Early prediction of student performance helps educators provide timely support. 
 - Exploratory Data Analysis (EDA)
 - Feature selection and preprocessing
 - Model training and evaluation
-- Model serialization using Pickle
 - Integration with Flask for real-time prediction
 
 ---
