@@ -32,14 +32,13 @@ Try it now: [Student Performance Predictor](https://student-performance-predicto
 Want to run this project locally? Follow these steps:  
 
 1. **Clone the repository** 
-```bash
+
 git clone https://github.com/SOWMIYA-learn/student-performance-predictor.git
 cd student-performance-predictor
 
 2. Install dependencies
 
 pip install -r requirements.txt
-
 
 3. Run the Flask app
 
@@ -50,7 +49,7 @@ python app.py
 
 http://127.0.0.1:5000/
 
- __📜 License__
+ 📜 License
 
 This project is licensed under the MIT License
 
