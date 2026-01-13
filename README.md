@@ -15,14 +15,6 @@ Try it now: [Student Performance Predictor](https://student-performance-predicto
 - Instant predictions via a simple form.  
 - Responsive design for all devices.  
 
-## 🖼 Screenshots
-*(Replace with your screenshots in a `screenshots` folder)*  
-
-![Home Page](<img width="1882" height="881" alt="image" src="https://github.com/user-attachments/assets/b4450882-72fe-4205-ba47-ff58eae992f6" />
-)  
-![Prediction Result](<img width="1853" height="900" alt="image" src="https://github.com/user-attachments/assets/b3a176cd-b4c5-4e0d-bbca-ea116302840c" />
-)  
-
 ## 💻 For Developers
 Want to run this project locally? Follow these steps:  
 
@@ -30,3 +22,22 @@ Want to run this project locally? Follow these steps:
 ```bash
 git clone https://github.com/SOWMIYA-learn/student-performance-predictor.git
 cd student-performance-predictor
+
+2. Install dependencies
+
+pip install -r requirements.txt
+
+
+3. Run the Flask app
+
+python app.py
+
+
+4. Open in browser
+
+http://127.0.0.1:5000/
+---
+ 📜 License 
+
+This project is licensed under the MIT License
+.---
