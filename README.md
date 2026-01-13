@@ -7,7 +7,20 @@
 Predict student performance using a machine learning model with a simple and intuitive web interface.  
 
 ## 🌐 Live Demo
-Try it now: [Student Performance Predictor](https://student-performance-predictor-zz2j.onrender.com)  
+Try it now: [Student Performance Predictor](https://student-performance-predictor-zz2j.onrender.com)
+
+## 🛠️ Tech Stack
+
+| Layer / Purpose        | Technology / Tool        |
+|------------------------|-------------------------|
+| Frontend               | HTML, CSS, Bootstrap    |
+| Backend                | Python, Flask           |
+| Machine Learning Model | scikit-learn            |
+| Data Handling          | pandas, numpy           |
+| Visualization (optional) | matplotlib, seaborn    |
+| Deployment             | Render                   |
+| Version Control        | Git, GitHub             |
+
 
 ## ⚡ Features
 - Predict student performance based on key academic and personal factors.  
