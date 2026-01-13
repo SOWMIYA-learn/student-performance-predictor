@@ -31,7 +31,7 @@ Try it now: [Student Performance Predictor](https://student-performance-predicto
 ## 💻 For Developers
 Want to run this project locally? Follow these steps:  
 
-1. **Clone the repository**  
+1. **Clone the repository** 
 ```bash
 git clone https://github.com/SOWMIYA-learn/student-performance-predictor.git
 cd student-performance-predictor
@@ -49,8 +49,8 @@ python app.py
 4. Open in browser
 
 http://127.0.0.1:5000/
----
- **📜 License **
+
+ __📜 License__
 
 This project is licensed under the MIT License
-.---
+
