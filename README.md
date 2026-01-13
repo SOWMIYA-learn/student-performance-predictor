@@ -1,85 +1,32 @@
-# 🎓 Student Performance Predictor
+# Student Performance Predictor 🎓
 
-A Machine Learning–powered web application that predicts student academic performance based on factors such as study hours, attendance, internal marks, and previous grades. The project integrates an ML model with a Flask web interface and is deployed using Render.
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)  
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://student-performance-predictor-zz2j.onrender.com)  
 
----
+Predict student performance using a machine learning model with a simple and intuitive web interface.  
 
-## 🚀 Live Demo
-🔗 https://student-performance-predictor-zz2j.onrender.com 
+## 🌐 Live Demo
+Try it now: [Student Performance Predictor](https://student-performance-predictor-zz2j.onrender.com)  
 
+## ⚡ Features
+- Predict student performance based on key academic and personal factors.  
+- User-friendly web interface built with Flask.  
+- Instant predictions via a simple form.  
+- Responsive design for all devices.  
 
----
+## 🖼 Screenshots
+*(Replace with your screenshots in a `screenshots` folder)*  
 
-## 📌 Project Overview
-Early prediction of student performance helps educators provide timely support. This application uses a trained Machine Learning model to analyze student-related inputs and predict performance outcomes through a simple and interactive web interface.
+![Home Page](<img width="1882" height="881" alt="image" src="https://github.com/user-attachments/assets/b4450882-72fe-4205-ba47-ff58eae992f6" />
+)  
+![Prediction Result](<img width="1853" height="900" alt="image" src="https://github.com/user-attachments/assets/b3a176cd-b4c5-4e0d-bbca-ea116302840c" />
+)  
 
----
+## 💻 For Developers
+Want to run this project locally? Follow these steps:  
 
-## 🧠 Machine Learning Workflow
-- Dataset loading and cleaning
-- Exploratory Data Analysis (EDA)
-- Feature selection and preprocessing
-- Model training and evaluation
-- Integration with Flask for real-time prediction
-
----
-
-## 🛠️ Tech Stack
-
-- **Programming Language:** Python  
-- **ML Libraries:** NumPy, Pandas, Scikit-learn  
-- **Web Framework:** Flask  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Deployment:** Render (Free Tier)  
-- **Version Control:** Git & GitHub  
-
----
-
-## 📂 Project Structure
-student-performance-predictor/
-│
-├── app.py # Flask application
-├── train_model.py # Model training script
-├── interactive_test.py # Model testing script
-├── student_data.csv # Dataset
-├── requirements.txt # Project dependencies
-├── model/
-│ └── model.pkl # Trained ML model
-│
-├── templates/
-│ └── index.html # Frontend HTML
-│
-├── static/
-│ ├── css/
-│ │ └── style.css # Styling
-│ └── js/
-│ └── script.js # Client-side logic
-│
-├── .gitignore
-└── README.md
-
-
----
-
-## ⚙️ Local Installation & Setup
-
-1️⃣ Clone the repository  
+1. **Clone the repository**  
 ```bash
 git clone https://github.com/SOWMIYA-learn/student-performance-predictor.git
 cd student-performance-predictor
-
-2️⃣ Install required dependencies
-pip install -r requirements.txt
-
-3️⃣ Run the Flask application
-python app.py
-
-4️⃣ Open your browser and navigate to
-http://127.0.0.1:5000/
-
-
- 📜 License
-
-This project is licensed under the MIT License.
-
----
