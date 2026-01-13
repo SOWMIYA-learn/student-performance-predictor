@@ -51,5 +51,5 @@ Try it now: [Student Performance Predictor](https://student-performance-predicto
 
  **📜 License**
 
-       This project is licensed under the MIT License
+  This project is licensed under the MIT License
 
